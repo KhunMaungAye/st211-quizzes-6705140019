@@ -10,13 +10,24 @@ st211-quizzes-6705140019/
 │   ├── roman.py
 │   ├── test_roman.py
 │   └── README.md
-└── Bank/
-	├── bank.py
-	├── grade.py
-	├── test_bank.py
-	├── test_dependent.py
-	├── test_grade.py
-	└── README.md
+├── Bank/
+│   ├── bank.py
+│   ├── grade.py
+│   ├── test_bank.py
+│   ├── test_dependent.py
+│   ├── test_grade.py
+│   └── README.md
+├── assert-lab/
+│   ├── shopping.py
+│   ├── test_collections.py
+│   ├── test_floats.py
+│   ├── test_shopping.py
+│   └── README.md
+└── validate/
+    ├── validators.py
+    ├── test_positive.py
+    ├── test_negative.py
+    └── README.md
 ```
 
 ## Exercises
@@ -33,6 +44,14 @@ The Bank exercise contains two small independent problems:
 - `letter_grade`, which converts a score from 0 to 100 into a letter grade.
 
 See [Bank/README.md](Bank/README.md) for the rules and examples.
+
+### Assert Lab
+
+The assert-lab exercise introduces assertion-based test patterns for a small `ShoppingCart`, collection comparison checks, and float comparisons using `pytest.approx()`. See [assert-lab/README.md](assert-lab/README.md).
+
+### Validate
+
+The validate exercise provides a small validation helper suite that checks valid email and age inputs and rejects invalid forms, out-of-range ages, and non-integer age types. See [validate/README.md](validate/README.md).
 
 ## Running the Tests
 
