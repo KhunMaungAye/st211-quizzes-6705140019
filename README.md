@@ -19,9 +19,19 @@ st211-quizzes-6705140019/
 │   └── README.md
 ├── assert-lab/
 │   ├── shopping.py
+│   ├── pytest.ini
 │   ├── test_collections.py
+│   ├── test_conditional.py
 │   ├── test_floats.py
+│   ├── test_markers.py
 │   ├── test_shopping.py
+│   ├── test_skips.py
+│   ├── test_strict.py
+│   ├── test_xfail.py
+│   └── README.md
+├── fixture-lab/
+│   ├── bank.py
+│   ├── test_after.py
 │   └── README.md
 └── validate/
     ├── validators.py
@@ -49,6 +59,10 @@ See [Bank/README.md](Bank/README.md) for the rules and examples.
 
 The assert-lab exercise introduces assertion-based test patterns for a small `ShoppingCart`, collection comparison checks, and float comparisons using `pytest.approx()`. See [assert-lab/README.md](assert-lab/README.md).
 
+### Fixture Lab
+
+The fixture-lab exercise demonstrates how to use `pytest` fixtures to create reusable setup for a `BankAccount` and keep the tests concise and readable. See [fixture-lab/README.md](fixture-lab/README.md).
+
 ### Validate
 
 The validate exercise provides a small validation helper suite that checks valid email and age inputs and rejects invalid forms, out-of-range ages, and non-integer age types. See [validate/README.md](validate/README.md).
@@ -72,6 +86,8 @@ Run one exercise independently:
 ```bash
 python3 -m pytest Roman
 python3 -m pytest Bank
+python3 -m pytest assert-lab
+python3 -m pytest fixture-lab
 ```
 
 ## Learning Goals
