@@ -33,6 +33,25 @@ st211-quizzes-6705140019/
 │   ├── bank.py
 │   ├── test_after.py
 │   └── README.md
+param-lab/
+├── README.md                 
+│   ├── mathutils.py          
+│   ├── discount.py           
+│   ├── validate.py           
+│   ├── test_cases.json       
+│   ├── logins.csv            
+│   ├── test_param.py          
+│   ├── test_factorial.py       
+│   ├── test_discount.py        
+│   ├── test_discount_errors.py 
+│   ├── test_default_ids.py     
+│   ├── test_param_ids.py       
+│   ├── test_param_marks.py     
+│   ├── test_multi.py           
+│   ├── test_parm_fixture.py   
+│   ├── test_browsers.py        
+│   ├── test_data_driven.py     
+│   └── test_csv_driven.py      
 └── validate/
     ├── validators.py
     ├── test_positive.py
