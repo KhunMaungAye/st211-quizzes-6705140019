@@ -33,8 +33,12 @@ st211-quizzes-6705140019/
 │   ├── bank.py
 │   ├── test_after.py
 │   └── README.md
-param-lab/
-├── README.md                 
+├── mock/
+│   ├── weather.py
+│   ├── test_weather.py               
+│   └── README.md                                 
+├── param-lab/
+│   ├── README.md                 
 │   ├── mathutils.py          
 │   ├── discount.py           
 │   ├── validate.py           
